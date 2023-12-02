@@ -1,0 +1,6 @@
+Số lượng đồ thị có hướng phi chu trình (Directed Acyclic Graphs - DAGs) chứa V đỉnh không có một công thức đóng nào được biết đến.
+Tuy nhiên, số lượng tối thiểu của các DAGs có thể được xác định dựa trên số lượng các cặp đỉnh có thể có.
+Với mỗi cặp đỉnh, chúng có thể hoặc không được kết nối bởi một cạnh hướng.
+Do đó, với V đỉnh, ta có V(V-1) cặp đỉnh, và do đó có ít nhất 2^(V(V-1)) đồ thị có hướng có thể có1.
+Tuy nhiên,lưu ý rằng số này bao gồm cả các đồ thị chứa chu trình, vì vậy số lượng thực tế của các DAGs sẽ ít hơn.
+Để tính toán chính xác số lượng các DAGs,bạn cần sử dụng các phương pháp đếm phức tạp hơn, như thuật toán của Robinson
