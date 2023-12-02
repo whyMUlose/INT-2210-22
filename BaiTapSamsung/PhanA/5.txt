@@ -1,0 +1,8 @@
+Giả sử ta có một đồ thị G không chứa điểm articulation nhưng không phải là đồ thị biconnected.
+Điều này có nghĩa là tồn tại một cặp đỉnh u, v trong G mà không có hai đường đi không giao nhau từ u đến v.
+Bây giờ, hãy xem xét một đường đi P từ u đến v.
+Vì G không chứa điểm articulation, nên mỗi đỉnh trên P (ngoại trừ u và v) đều có một đỉnh kề nằm ngoài P.
+Do đó, từ mỗi đỉnh trên P, ta có thể tìm một đường đi khác đến v mà không giao cắt với P, điều này tạo thành một chu trình.
+Vì vậy, từ mỗi đỉnh trên P, ta luôn tìm thấy một đường đi khác đến v,
+điều này ngụ ý rằng tồn tại hai đường đi không giao nhau từ u đến v, điều này mâu thuẫn với giả định ban đầu.
+Do đó, một đồ thị không chứa điểm articulation chắc chắn là đồ thị biconnected.
